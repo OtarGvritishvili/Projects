@@ -1,0 +1,12 @@
+body {
+    width: auto;
+    height: auto;
+    background-color: #1E1E1E;
+}
+main {
+    width: 100%;
+    min-height: 100%;
+    background-image: url(../imgsData/Subtract.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
