@@ -15,8 +15,8 @@ body {
 main {
     margin-top: 1vh;
     background-image: url(../imgsData/main-background.svg);
-    width: 50vh;
-    height: 78vh;
+    width: 47vh;
+    height: 73vh;
     background-size:contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -26,7 +26,6 @@ main {
     align-items: center;
 }
 section {
-    border: solid 1px yellow;
     width: 100%;
     height: 23%;
 }
@@ -107,6 +106,98 @@ section {
         width: 100%;
         height: 100%;
     }
+.sectionMiddle {
+    display: flex;
+}
+    .middleLeft {
+        width: 35%;
+        height: 100%;
+        margin-left: 7.5%;
+        background-color: #ffffff;
+        border-radius: 1vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+        .middleLeft img {
+            width: 100%;
+            height: 90%;
+        }
+    .middleRight{
+        width: 50%;
+        height: 100%;
+        margin-left: 7.5%;
+    }
+        .middleRight img {
+            width: 100%;
+            height: 100%;
+        }
+.sectionBottom {
+    display: flex;
+    flex-direction: column;
+}
+    .firstLine {
+        width: 100%;
+        height: 40%;
+        font-size: 1vh;
+        color: #ffffff;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: end;
+        padding-left: 2vh;
+        padding-right: 2vh;
+
+    }
+    .firstLine p {
+        width: 15%;
+        text-align: center;
+        margin-bottom: 1vh;
+    }
+    .secondLine {
+        width: 100%;
+        height: 30%;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 2vh;
+        padding-right: 2vh;
+    }
+        .placeBox{
+            width: 15%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2vh;
+            background-color: #ffffff;
+            border-radius: 1vh;
+            font-weight: bold;
+        }
+    .thirdLine {
+        height: 30%;
+        font-size: 1.1vh;
+        color: #ffffff;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .leftSide{
+        display: flex;
+        align-items: center;
+    }
+    .locationIcon{
+        width: 2.4vh;
+        height: 3.5vh;
+        margin-right: 1vh;
+    }
+    .arena{
+        font-size:1.8vh;
+    }
+    
 footer {
     width: 25vh;
     height: 10vh;
